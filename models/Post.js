@@ -16,5 +16,5 @@ const Post = db.sequelize.define('pokemons',{
 
 //Post.sync({force: true})
 
-//module.exports = Post //Exportando o metodo Post para acessa-lo atrávez de outros arquivos
+module.exports = Post //Exportando o metodo Post para acessa-lo atrávez de outros arquivos
 

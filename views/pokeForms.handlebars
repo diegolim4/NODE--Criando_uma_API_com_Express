@@ -1,12 +1,12 @@
 <form action="/add" method="POST">
     <p>Nome do Pokemon:</p>
     <input type="text" name="nome">
-    
+    <p> Selecione o tipo do Pokemon:</p>
     <select class="form-select" name="tipo">
         <option id="pla">Planta</option>
         <option id="fog">Fogo</option>
-        <option id="ag">Àgua</option>
-        <option id="elet">Eletrico</option>        
+        <option id="ag">Água</option>
+        <option id="elet">Elétrico</option>        
         <option id="ven">Veneno</option>        
         <option id="psq">Psquico</option>        
         <option id="lut">Lutador</option>        
@@ -15,8 +15,10 @@
         <option id="nor">Normal</option>        
         <option id="gel">Gelo</option>        
         <option id="dra">Dragão</option>        
-        <option id="ins">Inseto</option>        
+        <option id="ins">Inseto</option>
     </select>
+    <p> Selecione o id do Pokemon:</p>
+    <input type="number" name="pokeid">
     
-    <Button type="submit">Cadastrar Pokemons</Button>
+    <P><Button type="submit">Cadastrar Pokemons</Button></P>
 </form>

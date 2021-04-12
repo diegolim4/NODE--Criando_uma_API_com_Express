@@ -11,5 +11,3 @@ module.exports = {
     sequelize: sequelize
 }
 
-
-//colorcar no git comiit seprando modeules por aqrquivos
