@@ -1,8 +1,8 @@
 <h1>Lista de Pokémons Cadastrados:</h1>
 
 {{#each tabs}}
+    <small>{{dataValues.createdAt}}</small>
     <h2>{{dataValues.Nome}} {{dataValues.pokeID}}</h2>    
-    <h3>{{dataValues.Tipo}}</h3>
-    
+    <h3>{{dataValues.Tipo}}</h3>    
     <hr>
 {{/each}}
