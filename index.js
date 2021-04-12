@@ -17,7 +17,7 @@ app.use(bodyParser.json())
 //Rotas
 
 app.get('/', (req, res)=> {
-    Post.findAll().then((tabs)=>{        
+    Post.findAll({order: [['id', 'DESC']]}).then((tabs)=>{        
         res.render('home', {tabs: tabs})
     })   
 })
