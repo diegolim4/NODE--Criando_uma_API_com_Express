@@ -12,4 +12,3 @@ module.exports = {
 }
 
 
-//colorcar no git comiit seprando modeules por aqrquivos
