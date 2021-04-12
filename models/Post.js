@@ -10,7 +10,7 @@ const Post = db.sequelize.define('pokemons',{
     },
 
     pokeID:{
-        type: db.Sequelize.TEXT
+        type: db.Sequelize.INTEGER
     }
 })
 
